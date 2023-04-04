@@ -2,6 +2,10 @@
 
 PowerSnap is a simple, lightweight, and easy to use screen capture tool. It is written in NodeJS using the [Node Canvas](https://github.com/Automattic/node-canvas) package. The tool can be used from the command line or as an Alfred Workflow.
 
+| Before  | After |
+| ------------- | ------------- |
+| ![Before](pic.png)  | ![After](image.png)  |
+
 ## Installation
 
 1. Install the requirements for canvas
