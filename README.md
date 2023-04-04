@@ -1,6 +1,6 @@
 # PowerSnap 📸💻
 
-PowerSnap is a simple, lightweight, and easy to use screen capture tool. It is written in NodeJS using the [Node Canvas](https://github.com/Automattic/node-canvas) package. The tool can be used from the command line or as an Alfred Workflow.
+PowerSnap is a simple, lightweight, and easy to use screen capture tool. It is written in NodeJS using [Node Canvas](https://github.com/Automattic/node-canvas) to create the image. The tool can be used from the command line or as an Alfred Workflow.
 
 | Before  | After |
 | ------------- | ------------- |
@@ -45,3 +45,7 @@ npm i -g @vercel/ncc
 ## Alred Workflow
 
 Grab the latest workflow from the Releases page and install it. You can then use the `snap` keyword to take a screenshot.
+
+## Todos
+- [ ] Allow users to modify the options from the command line
+- [ ] Allow users to modify the options from the Alfred command
