@@ -42,7 +42,7 @@ npm i -g @vercel/ncc
 
 **Important**: The build command will not package the Canvas dependencies. You will need to install them manually by running `npm i canvas` in the `dist` folder. This is necessary, because the `ncc` package does not support native modules.
 
-## Alred Workflow
+## Alfred Workflow
 
 Grab the latest workflow from the Releases page and install it. You can then use the `snap` keyword to take a screenshot.
 
