@@ -7,10 +7,10 @@ const args = process.argv.slice(2);
 // console.log("args:", args);
 
 const FILE_PATH = args[0] || "./pic.png";
-const PX = 100;
-const PY = 100;
-const FROM_COLOR = "#642B73";
-const TO_COLOR = "#C6426E";
+const PX = 150;
+const PY = 150;
+const FROM_COLOR = "#ABB8C3";
+const TO_COLOR = "#788692";
 export const SCAN_PADDING = 10;
 export const INSET = 50;
 export const RADIUS = 1 / 40;
@@ -35,9 +35,9 @@ createBackground(context, width, height, FROM_COLOR, TO_COLOR);
 
 const { w, h, x, y } = imagePosition;
 
-const t = (s, o = 20) => s + o;
-applyShadow(context, imagePosition, pSBC(-0.4, t(FROM_COLOR)), 20, 0, 15);
-applyShadow(context, imagePosition, pSBC(-0.4, t(TO_COLOR)), 40, 0, 40);
+const t = (s, o = 80) => s + o;
+applyShadow(context, imagePosition, pSBC(-0.4, t(FROM_COLOR)), 10, 0, 20);
+applyShadow(context, imagePosition, pSBC(-0.4, t(TO_COLOR)), 40, 0, 50);
 
 context.drawImage(image, x, y, w, h);
 
